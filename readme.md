@@ -7,7 +7,7 @@
 Here’s a Windows-friendly Node.js script (TypeScript) that you run like:
 
 ```bash
-node dist/list-not-readonly.js "D:\OneDrive\jorgeprg\nodejs\folderNotReadonlyFiles\testFolder"
+node dist/list-not-readonly.js 'D:\OneDrive\jorgeprg\nodejs\folderNotReadonlyFiles\testFolder'
 ```
 
 It recursively walks the folder and prints **only files that are NOT read-only**.
